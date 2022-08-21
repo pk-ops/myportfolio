@@ -1,6 +1,5 @@
 import Education from "./Education.js";
 import Work from "./Work.js";
-import Programming from "./Programming.js";
 import Projects from "./Projects.js";
 import Contact from "./Contact.js"
 import React, { useState } from "react";
@@ -11,7 +10,7 @@ export default function App() {
 
   const [education,seteducation]=useState(true);
   const [workhistory,setworkhistory]=useState(false);
-  const [programming,setprogramming]=useState(false);
+  // const [programming,setprogramming]=useState(false);
   const [projects,setprojects]=useState(false); 
   const[opennav,setopennav]=useState(false)
 
