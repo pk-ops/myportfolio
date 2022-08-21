@@ -10,14 +10,13 @@ export default function App() {
 
   const [education,seteducation]=useState(true);
   const [workhistory,setworkhistory]=useState(false);
-  // const [programming,setprogramming]=useState(false);
+  
   const [projects,setprojects]=useState(false); 
   const[opennav,setopennav]=useState(false)
 
   function  SetAllFalse(){
     seteducation(false);
     setworkhistory(false);
-    setprogramming(false);
     setprojects(false);
   }
 
